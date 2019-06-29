@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title> New Login </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">
+      function go(){      
+        var Username=document.getElementById('unm').value;
+        var Password=document.getElementById('pwd').value;
+        return true;}
+    </script>
+</head>
+<body>
+  <div id="login-box">
+  <h1>Login</h1>
+    <form action="logiin.php" method="post">
+      <p><input type="text" id= "Username" name="unm" placeholder="                Enter Username"></p>
+      <p><input type="password" id="Password" name="pwd" placeholder="                Enter Password"></p>
+      <input type="submit" id="lg" name="Login" value="Login" onclick="return go()">
+        <div id="dforget">
+          <a id="forget" href="#">Forgot password!</a>
+        </div>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+
+body{font-family: monospace;}
+#login-box{width: 320px;height: 400px;background:  #ffe0b2;color: #000000;top: 56%;left: 80%;position: absolute;transform: translate(-175%,-35%);box-sizing: border-box;padding: 40px 30px;border-radius: 50px;opacity: .8;}
+h1{margin: 0;padding: -40 0 20px;text-align: center;font-size: 22px;color: brown margin-bottom: 25px; font-weight:bold;}
+#login-box p{margin: 0;padding: 0;font-weight: bold;}
+#login-box input{width: 100%;margin-bottom: 20px;}
+#login-box input[type="text"], input[type="password"]{border-bottom: 1px solid #fff;background: transparent;outline: none;height: 35px;color: #fff;font-size: 16px;border-radius: 30px;}
+#login-box input[type="submit"]{height: 35px;background: #0C090A;color: #fff;font-size: 18px;border-radius: 30px;}
+#login-box input[type="submit"]:hover{cursor: pointer;background: #4CC552;opacity: 0.8;color: white;}
+#dforget{margin-top: 0px;}
+#forget{color: #157DEC;margin-left: 68px;}
+#forget:hover{text-decoration: underline;}
+#login-box a{text-decoration: none;font-size: 14px;color:#000000;}
+#login-box a:hover{color: #39dc79;}
+#lg{color: aqua;}

@@ -1,0 +1,101 @@
+<html>
+<head>
+  
+<meta charset="UTF-8">
+  <title>Cinema Theater Website Template</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="style(2).css">
+</head>
+<body>
+  <div id="header">
+    <div>
+      <a href="index.html" id="logo"><img src="images/logo.png" alt=""></a>
+      <ul>
+        <li class="selected">
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about us.html">about us</a>
+          <ul>
+            <li>
+              <a href="#">sign up</a>
+            </li>
+            <li>
+              <a href="#">about us</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="sign2up.html">register</a>
+        </li>
+        <li>
+          <a href="sign2up.html">login</a>
+        </li>
+        <li>
+          <!--<a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="blog.html">Blog</a>
+        </li>-->
+      </ul>
+    </div>
+  </div>
+
+    <title> New Login </title>
+    <link rel="stylesheet" type="text/css" href="style(2).css">
+    <script type="text/javascript">
+      function go(){      
+        var Username=document.getElementById('unm').value;
+        var Password=document.getElementById('pwd').value;
+        return true;}
+    </script>
+</head>
+<body>
+  <div id="login-box">
+  <h1>Add & DELETE MOVIE</h1>
+   <!-- <form action="http://localhost/new/newlogin.php" method="post">
+      <p><input type="text" id= "Username" name="unm" placeholder="                Enter Username"></p>
+      <p><input type="password" id="Password" name="pwd" placeholder="                Enter Password"></p>
+      <input type="submit" id="lg" name="Login" value="Add Movie" onclick="return go()">
+      <input type="submit" id="lg" name="Login" value="Delete Movie" onclick="return go()">
+        <div id="dforget">
+          <a id="forget" href="#">Forgot password!</a>
+        </div>
+    </form>-->
+
+
+
+
+
+
+<form action="addmovie.php" method="post">
+
+
+<h2></h2>
+MovieName:
+<br>
+<input type="text" name="Name" >
+<br>
+MovieId:
+<br>
+<input type="text" name="Movieid">
+<br>
+MOvie Description:
+<br>
+<input type="text" name="Moviedescp">
+<br>
+
+
+
+<td>
+  <input type="submit" name="btn" value="add">
+   <input type="submit" name="btn" value="Delete">
+</td>
+
+
+
+</form>
+
+  </div>
+</body>
+</html>

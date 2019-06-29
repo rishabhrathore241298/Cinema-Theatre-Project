@@ -1,0 +1,67 @@
+<html>
+<head>
+  
+<meta charset="UTF-8">
+  <title>Cinema Theater Website Template</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+  <div id="header">
+    <div>
+      <a href="index.html" id="logo"><img src="images/logo.png" alt=""></a>
+      <ul>
+        <li class="selected">
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about us.html">about us</a>
+          <ul>
+            <li>
+              <a href="#">sign up</a>
+            </li>
+            <li>
+              <a href="#">about us</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">register</a>
+        </li>
+        <li>
+          <a href="newlogin (2).html">login</a>
+        </li>
+        <li>
+          <!--<a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="blog.html">Blog</a>
+        </li>-->
+      </ul>
+    </div>
+  </div>
+
+    <title> sign up </title>
+    <link rel="stylesheet" type="text/css" href="style (1).css">
+    <script type="text/javascript">
+      function go(){      
+        var name=document.getElementById('nm').value;
+        var Username=document.getElementById('unm').value;
+          var Password=document.getElementById('pwd').value;
+
+        return true;}
+    </script>
+</head>
+<body>
+  <div id="login-box">
+  <h1>registration form</h1>
+    <form action="logiin.php" method="post">
+      <p><input type="text" id= "name" name="nm" value="movie name" ></p>
+      <p><input type="password" id="us" name="unm" value="movie id" ></p>
+      <p><input type="password" id="Password" name="pwd" value="movie"></p>
+      <input type="submit" id="lg" name="register" value="register" onclick="return go()">
+        
+        
+    </form>
+  </div>
+</body>
+</html>
